@@ -28,7 +28,7 @@ function onSubmit(e){
     } else{
         if (!JT.querySelector('h2')) {
             const userHead = document.createElement('h2');
-            userHead.innerHTML = 'Just Added Users';
+            userHead.innerHTML = 'Recently Added Users';
             JT.appendChild(userHead);
         }
 
